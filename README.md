@@ -12,11 +12,11 @@ Let's Reverse!
 
 2. выводит список секретных кодов приложения; 
 	типа такого:
- 			<receiver android:name=".receivers.DebugReceiver">
+ 			```xml
+			 <receiver android:name=".receivers.DebugReceiver">
  				<intent-filter>
  					<action android:name="android.provider.Telephony.SECRET_CODE" />
 					<data android:scheme="android_secret_code" android:host="727" />
 				</intent-filter>
-			</receiver>
-
+			</receiver>```
  3. выводит список библиотек, используемых в приложении.
